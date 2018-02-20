@@ -27,20 +27,18 @@ def createNewReport(reached, unreached, data, filename):
     #Print time
     ptext = '<font size=8>%s</font>' % formatted_time
     Story.append(Paragraph(ptext, styles["Normal"]))
-    Story.append(Spacer(1, 2*cm))
+    Story.append(Spacer(1, 1*cm))
 
     ###Print stat analyze
     ##Percentage stats
-    ptext = "<font size=20>Time-Stats:</font>"
-    Story.append(Paragraph(ptext, styles["Normal"]))
-    Story.append(Spacer(1, 12))
+    
     ptext = "<font size=12>Totally pinged IP-Adresses: " + str(reached + unreached) + "</font>"
     Story.append(Paragraph(ptext, styles["Normal"]))
     ptext = "<font size=12>Responding IP-Adresses: " + str(reached) + "</font>"
     Story.append(Paragraph(ptext, styles["Normal"]))
     ptext = "<font size=12>Not responding IP-Adresses: " + str(unreached) + "</font>"
     Story.append(Paragraph(ptext, styles["Normal"]))
-    ptext = "<font size=12>Percentage " + str((reached/unreached)*100) + "</font>"
+    ptext = "<font size=12>Percentage: " + str(round((reached/(unreached+reached))*100, 3)) + "</font>"
     Story.append(Paragraph(ptext, styles["Normal"]))
     Story.append(Spacer(1, 12))
 
@@ -51,6 +49,9 @@ def createNewReport(reached, unreached, data, filename):
         if i["restime"] != "ris":
             times.append(int(i["restime"]))
     avgtime = sum(times) / float(len(times))
+    ptext = "<font size=20>Time-Stats:</font>"
+    Story.append(Paragraph(ptext, styles["Normal"]))
+    Story.append(Spacer(1, 12))
     ptext = "<font size=20>The average response time was " + str(round(avgtime,2)) + "</font>"
     Story.append(Paragraph(ptext, styles["Normal"]))
     Story.append(Spacer(1, 12))
