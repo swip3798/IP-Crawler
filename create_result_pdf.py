@@ -50,19 +50,19 @@ def createNewReport(reached, unreached, data, filename):
             times.append(int(i["restime"]))
     avgtime = sum(times) / float(len(times))
     ptext = "<font size=20>Time-Stats:</font>"
-    Story.append(Paragraph(ptext, styles["Normal"]))
+    Story.append(Paragraph(ptext, styles["Heading1"]))
     Story.append(Spacer(1, 12))
     ptext = "<font size=20>The average response time was " + str(round(avgtime,2)) + "</font>"
     Story.append(Paragraph(ptext, styles["Normal"]))
     Story.append(Spacer(1, 12))
     #Response time per country
     ptext = "<font size=18>Average response time for every country (DESCENDING):</font>"
-    Story.append(Paragraph(ptext, styles["Heading1"]))
+    Story.append(Paragraph(ptext, styles["Heading2"]))
     Story.append(Spacer(1, 12))
     im = Image(chart_min, 6.4*inch*0.6, 4.8*inch*0.6)
     Story.append(im)
     ptext = "<font size=18>Average response time for every country (ASCENDING):</font>"
-    Story.append(Paragraph(ptext, styles["Heading1"]))
+    Story.append(Paragraph(ptext, styles["Heading2"]))
     Story.append(Spacer(1, 12))
     im = Image(chart_max, 6.4*inch*0.6, 4.8*inch*0.6)
     Story.append(im)
