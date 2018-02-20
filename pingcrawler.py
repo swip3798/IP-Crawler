@@ -86,12 +86,13 @@ def ping(host):
 
 def main():
 	number_of_ips = int(input("How many IPs should be checked: "))
+	threads = int(input("Number of threads: "))
 	#Save time for time measurement
 	now = time.time()
 	print("Generating IPs...")
 	ip_list = gen_ips(num = number_of_ips)
 	print("Creating Pool...")
-	pool = Pool(40)
+	pool = Pool(threads)
 	print("Start pinging...")
 	results=[]
 	for _ in tqdm.tqdm(pool.imap_unordered(ping, ip_list), total=len(ip_list)):
