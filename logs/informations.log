@@ -1,387 +1,240 @@
 -------------------------------------------
-IP-Adress: 5.100.79.37
-AS: AS42038 Vladivostokskaya Set LTD
-Region: Primorskiy Kray
-Zip: 690018
-Longitude: 131.8735
-Latitude: 43.1056
-Country-Code: RU
-City: Vladivostok
-Country: Russia
+IP-Adress: 129.150.94.180
+AS: AS7160 Oracle Corporation
+Region: California
+Zip: 94065
+Longitude: -122.2471
+Latitude: 37.5331
+Country-Code: US
+City: Redwood City
+Country: United States
 -------------------------------------------
 
 -------------------------------------------
-IP-Adress: 158.69.197.183
-AS: AS16276 OVH SAS
-Region: Quebec
-Zip: H3G
-Longitude: -73.5793
-Latitude: 45.4987
-Country-Code: CA
-City: Montreal
-Country: Canada
+IP-Adress: 187.225.173.12
+AS: AS8151 Uninet S.A. de C.V.
+Region: Morelos
+Zip: 62764
+Longitude: -99.1833
+Latitude: 18.8667
+Country-Code: MX
+City: Jiutepec
+Country: Mexico
 -------------------------------------------
 
 -------------------------------------------
-IP-Adress: 104.25.127.251
-AS: AS13335 Cloudflare Inc
-Region: Quebec
+IP-Adress: 216.86.90.6
+AS: AS27553 Telnet Worldwide, Inc.
+Region: Michigan
+Zip: 48197
+Longitude: -83.6046
+Latitude: 42.2196
+Country-Code: US
+City: Ypsilanti
+Country: United States
+-------------------------------------------
+
+-------------------------------------------
+IP-Adress: 223.114.226.168
+AS: AS9808 Guangdong Mobile Communication Co.Ltd.
+Region: Beijing
 Zip: 
-Longitude: -73.5673
-Latitude: 45.5017
-Country-Code: CA
-City: Montreal
-Country: Canada
+Longitude: 116.357
+Latitude: 39.9101
+Country-Code: CN
+City: Beijing (Xicheng Qu)
+Country: China
 -------------------------------------------
 
 -------------------------------------------
-IP-Adress: 79.11.44.80
+IP-Adress: 79.238.85.95
+AS: AS3320 Deutsche Telekom AG
+Region: Rheinland-Pfalz
+Zip: 55128
+Longitude: 8.2422
+Latitude: 49.9808
+Country-Code: DE
+City: Mainz
+Country: Germany
+-------------------------------------------
+
+-------------------------------------------
+IP-Adress: 79.18.171.245
 AS: AS3269 Telecom Italia
-Region: Sardinia
-Zip: 09045
-Longitude: 9.2844
-Latitude: 39.2169
+Region: Sicily
+Zip: 90100
+Longitude: 13.3667
+Latitude: 38.1167
 Country-Code: IT
-City: Quartu Sant'Elena
+City: Palermo
 Country: Italy
 -------------------------------------------
 
 -------------------------------------------
-IP-Adress: 71.192.0.81
-AS: AS7922 Comcast Cable Communications, LLC
-Region: Connecticut
-Zip: 06029
-Longitude: -72.4728
-Latitude: 41.9072
-Country-Code: US
-City: Ellington
-Country: United States
--------------------------------------------
-
--------------------------------------------
-IP-Adress: 84.108.41.45
-AS: AS8551 Bezeq International
-Region: Southern District
-Zip: 
-Longitude: 34.6497
-Latitude: 31.7921
-Country-Code: IL
-City: Ashdod
-Country: Israel
--------------------------------------------
-
--------------------------------------------
-IP-Adress: 24.166.76.72
-AS: AS10796 Time Warner Cable Internet LLC
-Region: Ohio
-Zip: 44485
-Longitude: -80.8407
-Latitude: 41.2359
-Country-Code: US
-City: Warren
-Country: United States
--------------------------------------------
-
--------------------------------------------
-IP-Adress: 222.80.19.103
-AS: AS4134 No.31,Jin-rong Street
-Region: Xinjiang
-Zip: 
-Longitude: 86.1469
-Latitude: 41.7597
-Country-Code: CN
-City: Korla
-Country: China
--------------------------------------------
-
--------------------------------------------
-IP-Adress: 221.191.222.185
-AS: AS4713 NTT Communications Corporation
-Region: Tokyo
-Zip: 190-0031
-Longitude: 139.7514
-Latitude: 35.685
+IP-Adress: 126.60.3.185
+AS: AS17676 Softbank BB Corp.
+Region: Okayama
+Zip: 700-0827
+Longitude: 133.935
+Latitude: 34.6617
 Country-Code: JP
-City: Tokyo
+City: Okayama
 Country: Japan
 -------------------------------------------
 
 -------------------------------------------
-IP-Adress: 104.109.22.232
-AS: AS28573 CLARO S.A.
-Region: Massachusetts
-Zip: 02142
-Longitude: -71.0843
-Latitude: 42.3626
-Country-Code: US
-City: Cambridge
-Country: United States
--------------------------------------------
-
--------------------------------------------
-IP-Adress: 79.134.201.142
-AS: AS8492 OBIT Ltd.
-Region: St.-Petersburg
-Zip: 190817
-Longitude: 30.2642
-Latitude: 59.8944
-Country-Code: RU
-City: St Petersburg
-Country: Russia
--------------------------------------------
-
--------------------------------------------
-IP-Adress: 74.229.253.232
-AS: AS7018 AT&T Services, Inc.
-Region: Alabama
-Zip: 35034
-Longitude: -87.2644
-Latitude: 32.9088
-Country-Code: US
-City: Brent
-Country: United States
--------------------------------------------
-
--------------------------------------------
-IP-Adress: 169.44.3.161
-AS: AS36351 SoftLayer Technologies Inc.
-Region: England
-Zip: 
-Longitude: -1.39918
-Latitude: 51.0269
-Country-Code: GB
-City: Hursley
-Country: United Kingdom
--------------------------------------------
-
--------------------------------------------
-IP-Adress: 201.254.18.41
-AS: AS22927 Telefonica de Argentina
-Region: Buenos Aires
-Zip: 1702
-Longitude: -58.5408
-Latitude: -34.6377
-Country-Code: AR
-City: Ciudadela
-Country: Argentina
--------------------------------------------
-
--------------------------------------------
-IP-Adress: 182.143.111.76
+IP-Adress: 182.145.79.110
 AS: AS4134 No.31,Jin-rong Street
 Region: Sichuan
 Zip: 
-Longitude: 104.7769
-Latitude: 29.3416
+Longitude: 105.0622
+Latitude: 29.5835
 Country-Code: CN
-City: Zigong
+City: Neijiang
 Country: China
 -------------------------------------------
 
 -------------------------------------------
-IP-Adress: 67.40.208.159
-AS: AS209 Qwest Communications Company, LLC
+IP-Adress: 186.82.16.20
+AS: AS10620 Telmex Colombia S.A.
+Region: Antioquia
+Zip: 050001
+Longitude: -75.5636
+Latitude: 6.2518
+Country-Code: CO
+City: Medellín
+Country: Colombia
+-------------------------------------------
+
+-------------------------------------------
+IP-Adress: 114.105.233.19
+AS: AS4134 No.31,Jin-rong Street
+Region: Anhui
+Zip: 
+Longitude: 117.2808
+Latitude: 31.8639
+Country-Code: CN
+City: Hefei
+Country: China
+-------------------------------------------
+
+-------------------------------------------
+IP-Adress: 2.201.90.139
+AS: AS3209 Vodafone GmbH
+Region: Saxony
+Zip: 01558
+Longitude: 13.5335
+Latitude: 51.2895
+Country-Code: DE
+City: Grossenhain
+Country: Germany
+-------------------------------------------
+
+-------------------------------------------
+IP-Adress: 52.222.246.13
+AS: AS16509 Amazon.com, Inc.
 Region: Washington
-Zip: 98103
-Longitude: -122.3419
-Latitude: 47.6738
+Zip: 98109
+Longitude: -122.3422
+Latitude: 47.6344
 Country-Code: US
 City: Seattle
 Country: United States
 -------------------------------------------
 
 -------------------------------------------
-IP-Adress: 73.211.67.208
-AS: AS7922 Comcast Cable Communications, LLC
-Region: Illinois
-Zip: 60612
-Longitude: -87.6852
-Latitude: 41.8784
-Country-Code: US
-City: Chicago
-Country: United States
--------------------------------------------
-
--------------------------------------------
-IP-Adress: 136.63.36.232
-AS: AS16591 Google Fiber Inc.
-Region: Kansas
-Zip: 66215
-Longitude: -94.7453
-Latitude: 38.9499
-Country-Code: US
-City: Lenexa
-Country: United States
--------------------------------------------
-
--------------------------------------------
-IP-Adress: 73.244.114.186
-AS: AS7922 Comcast Cable Communications, LLC
-Region: Florida
-Zip: 33328
-Longitude: -80.2766
-Latitude: 26.0681
-Country-Code: US
-City: Fort Lauderdale
-Country: United States
--------------------------------------------
-
--------------------------------------------
-IP-Adress: 82.155.19.180
-AS: AS3243 Servicos De Comunicacoes E Multimedia S.A.
-Region: Porto
-Zip: 4425-001
-Longitude: -8.6199
-Latitude: 41.2357
-Country-Code: PT
-City: Maia
-Country: Portugal
--------------------------------------------
-
--------------------------------------------
-IP-Adress: 189.129.27.94
-AS: AS8151 Uninet S.A. de C.V.
-Region: Tabasco
-Zip: 86000
-Longitude: -92.9167
-Latitude: 17.9833
-Country-Code: MX
-City: Villahermosa
-Country: Mexico
--------------------------------------------
-
--------------------------------------------
-IP-Adress: 85.159.202.200
-AS: AS28977 United Nations Logistics Base
-Region: Apulia
-Zip: 
-Longitude: 17.6329
-Latitude: 40.6304
-Country-Code: IT
-City: San Michele Salentino
-Country: Italy
--------------------------------------------
-
--------------------------------------------
-IP-Adress: 24.5.181.21
-AS: AS7922 Comcast Cable Communications, LLC
-Region: California
-Zip: 94403
-Longitude: -122.3041
-Latitude: 37.5402
-Country-Code: US
-City: San Mateo
-Country: United States
--------------------------------------------
-
--------------------------------------------
-IP-Adress: 73.96.186.199
-AS: AS7922 Comcast Cable Communications, LLC
-Region: Oregon
-Zip: 97301
-Longitude: -122.9223
-Latitude: 44.9016
-Country-Code: US
-City: Salem
-Country: United States
--------------------------------------------
-
--------------------------------------------
-IP-Adress: 94.110.125.191
-AS: AS47377 Orange Belgium SA
-Region: Flanders
-Zip: 2060
-Longitude: 4.4167
-Latitude: 51.2167
-Country-Code: BE
-City: Antwerp
-Country: Belgium
--------------------------------------------
-
--------------------------------------------
-IP-Adress: 66.39.48.69
-AS: AS7859 pair Networks
-Region: Pennsylvania
-Zip: 15203
-Longitude: -79.9791
-Latitude: 40.4223
-Country-Code: US
-City: Pittsburgh
-Country: United States
--------------------------------------------
-
--------------------------------------------
-IP-Adress: 84.165.138.208
-AS: AS3320 Deutsche Telekom AG
-Region: Saarland
-Zip: 66806
-Longitude: 6.7833
-Latitude: 49.3
-Country-Code: DE
-City: Ensdorf
-Country: Germany
--------------------------------------------
-
--------------------------------------------
-IP-Adress: 106.111.12.91
+IP-Adress: 113.67.125.83
 AS: AS4134 No.31,Jin-rong Street
-Region: Jiangsu
+Region: Guangdong
 Zip: 
-Longitude: 119.9081
-Latitude: 32.4907
+Longitude: 113.25
+Latitude: 23.1167
 Country-Code: CN
-City: Taizhou
+City: Guangzhou
 Country: China
 -------------------------------------------
 
 -------------------------------------------
-IP-Adress: 67.49.1.161
-AS: AS20001 Time Warner Cable Internet LLC
-Region: California
-Zip: 92201
-Longitude: -116.2168
-Latitude: 33.7207
-Country-Code: US
-City: Indio
-Country: United States
+IP-Adress: 60.176.13.10
+AS: AS4134 No.31,Jin-rong Street
+Region: Zhejiang
+Zip: 
+Longitude: 120.1614
+Latitude: 30.2936
+Country-Code: CN
+City: Hangzhou
+Country: China
 -------------------------------------------
 
 -------------------------------------------
-IP-Adress: 46.105.100.47
-AS: AS16276 OVH SAS
-Region: Île-de-France
+IP-Adress: 190.160.206.77
+AS: AS22047 VTR BANDA ANCHA S.A.
+Region: Santiago Metropolitan
 Zip: 
-Longitude: 2.35222
-Latitude: 48.8566
+Longitude: -70.6682
+Latitude: -33.4625
+Country-Code: CL
+City: Santiago
+Country: Chile
+-------------------------------------------
+
+-------------------------------------------
+IP-Adress: 163.5.172.164
+AS: AS56339 Epitech
+Region: Occitanie
+Zip: 34000
+Longitude: 3.8772
+Latitude: 43.6109
 Country-Code: FR
-City: Paris
+City: Montpellier
 Country: France
 -------------------------------------------
 
 -------------------------------------------
-IP-Adress: 104.129.111.251
-AS: AS22995 Xplornet Communications Inc.
-Region: Ontario
+IP-Adress: 175.147.177.192
+AS: AS4837 CHINA UNICOM China169 Backbone
+Region: Liaoning
 Zip: 
-Longitude: -80.1364
-Latitude: 43.6156
-Country-Code: CA
-City: Rockwood
-Country: Canada
+Longitude: 123.4328
+Latitude: 41.7922
+Country-Code: CN
+City: Shenyang
+Country: China
 -------------------------------------------
 
 -------------------------------------------
-IP-Adress: 185.92.195.55
-AS: AS44043 Net Design Srl
-Region: Judetul Bistrita-Nasaud
-Zip: 
-Longitude: 24.4908
-Latitude: 47.1301
-Country-Code: RO
-Failed to gather information, here's the answer of the server:
-{"as": "AS44043 Net Design Srl", "city": "Bistri\u0163a", "country": "Romania", "countryCode": "RO", "isp": "Net Design Srl", "lat": 47.1301, "lon": 24.4908, "org": "Net Design Srl", "query": "185.92.195.55", "region": "BN", "regionName": "Judetul Bistrita-Nasaud", "status": "success", "timezone": "Europe/Bucharest", "zip": ""}
+IP-Adress: 146.154.85.129
+AS: AS270 National Aeronautics and Space Administration
+Region: Alabama
+Zip: 35812
+Longitude: -86.5859
+Latitude: 34.7304
+Country-Code: US
+City: Huntsville
+Country: United States
+-------------------------------------------
 
-Error: 'charmap' codec can't encode character '\u0163' in position 12: character maps to <undefined>
+-------------------------------------------
+IP-Adress: 88.90.35.212
+AS: AS2119 Telenor Norge AS
+Region: Hedmark
+Zip: 2209
+Longitude: 11.9977
+Latitude: 60.1905
+Country-Code: NO
+City: Kongsvinger
+Country: Norway
+-------------------------------------------
 
+-------------------------------------------
+IP-Adress: 189.225.5.128
+AS: AS8151 Uninet S.A. de C.V.
+Region: Mexico City
+Zip: 63000
+Longitude: -99.1386
+Latitude: 19.4342
+Country-Code: MX
+City: Mexico City
+Country: Mexico
 -------------------------------------------
 

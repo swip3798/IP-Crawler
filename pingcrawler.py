@@ -11,9 +11,10 @@ import time
 import requests
 import json
 from map_geoplotlib import showMapWithIPs, showMapWithoutIPs, saveMapWithoutIPs, saveMapWithIPs
-from create_bar_chart import createChartBar
+from create_bar_chart import createChartBar, createTimeBarMax, createTimeBarMin
 import create_result_pdf
 import tqdm
+import re
 
 ###Functions###
 
@@ -67,7 +68,15 @@ def ping(host):
 	t = out.communicate()[0],out.returncode
 	res = t[1]
 	output=t[0]
-	return [res==0, host, output.decode("utf-8")]
+	output = output.decode("utf-8", "ignore")
+	try:
+		if(res==0):
+			time = re.findall(r"([0-9]{1,3})ms", output)[0]
+		else:
+			time = ""
+	except Exception as e:
+		time = "ris"
+	return [res==0, host, time]
 
 
 
@@ -126,6 +135,7 @@ def main():
 			lastRequestTime = time.time()
 			#Load answer from API in dictionary r
 			r = json.loads(r.text)
+			r["restime"] = i[2]
 			print("#"  + str(n), "on", i[1])
 			try:
 				if r["status"]=="success":
@@ -154,6 +164,8 @@ def main():
 	percentage = (reached/unreached)*100
 	#Creates a chartbar and save it as figure.png
 	createChartBar(ip_infos).savefig("images/figure")
+	createTimeBarMax(ip_infos).savefig("images/fig_max")
+	createTimeBarMin(ip_infos).savefig("images/fig_min")
 	#Write the lastRequestTime in file for next script execution
 	with open("control/lastRequest", "w") as f:
 		f.write(str(int(lastRequestTime)))
