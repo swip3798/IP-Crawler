@@ -14,7 +14,9 @@ from map_geoplotlib import showMapWithIPs, showMapWithoutIPs, saveMapWithoutIPs,
 from create_bar_chart import createChartBar, createTimeBarMax, createTimeBarMin
 import create_result_pdf
 import tqdm
+import csv
 import re
+from numpy import genfromtxt
 
 ###Functions###
 
@@ -43,6 +45,17 @@ def gen_ip():
 			pass
 		else:
 			return str(firstElement) + "." + str(secondElement) + "." + str(thirdElement) +  "." + str(fourthElement)
+
+def removeDupDicts(l):
+	seen = set()
+	new_l = []
+	for d in l:
+	    t = tuple(d.items())
+	    if t not in seen:
+	        seen.add(t)
+	        new_l.append(d)
+	return new_l
+
 def gen_ips(num, current_list=None):
 	'''
 	Generates a list of unique IP Adresses, num is the length of the returned list
@@ -78,6 +91,33 @@ def ping(host):
 		time = "ris"
 	return [res==0, host, time]
 
+
+def cleanCSV(filename):
+	csv_data = readcsv(filename)
+	data = csv_data[1:]
+	new_data = []
+	for i in data:
+		if i not in new_data:
+			new_data.append(i)
+	with open(filename, "w") as f:
+		f.write(",".join(csv_data[0]) + "\n")
+		for i in new_data:
+			f.write(",".join(i) + "\n")
+	return True
+
+def readcsv(filename):	
+	ifile = open(filename, "rU")
+	reader = csv.reader(ifile, delimiter=";")
+
+	rownum = 0	
+	a = []
+
+	for row in reader:
+	    a.append (row)
+	    rownum += 1
+
+	ifile.close()
+	return a
 
 
 ###Functions END###
@@ -194,9 +234,11 @@ def main():
 	print("Add to json...")
 	with open("json/database.json", "r") as f:
 		ip_infos = ip_infos + json.loads(f.read())
-	json_ip_infos = json.dumps(ip_infos)
+	json_ip_infos = json.dumps(removeDupDicts(ip_infos))
 	with open("json/database.json", "w") as f:
 		f.write(json_ip_infos)
+	print("Clean stats CSV-File")
+	cleanCSV("csv/bus_stats.csv")
 	print("[Finished in " + str(time.time()-now) + "s]")
 	os.system("reports\\" + filename[8:])
 
