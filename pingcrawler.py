@@ -17,6 +17,7 @@ import tqdm
 import csv
 import re
 from numpy import genfromtxt
+from interactive_map import createInteractiveMap
 
 ###Functions###
 
@@ -239,8 +240,14 @@ def main():
 		f.write(json_ip_infos)
 	print("Clean stats CSV-File")
 	cleanCSV("csv/bus_stats.csv")
+	print("Creating interactive map...")
+	htmlname = "html/map_" + time.strftime("%Y%m%d-%H%M%S") + ".html"
+	createInteractiveMap(ip_infos, htmlname, "CartoDB dark_matter")
 	print("[Finished in " + str(time.time()-now) + "s]")
+	print("Open report...")
 	os.system("reports\\" + filename[8:])
+	print("Open interactive map...")
+	os.system("html\\" + htmlname[5:])
 
 
 
