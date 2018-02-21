@@ -27,11 +27,12 @@ def createNewReport(reached, unreached, data, filename):
     #Print time
     ptext = '<font size=8>%s</font>' % formatted_time
     Story.append(Paragraph(ptext, styles["Normal"]))
-    Story.append(Spacer(1, 1*cm))
+    Story.append(Spacer(1, 0.2*cm))
 
     ###Print stat analyze
     ##Percentage stats
-    
+    ptext = "<font size=14>Misc-Stats: </font>"
+    Story.append(Paragraph(ptext, styles["Heading1"]))
     ptext = "<font size=12>Totally pinged IP-Adresses: " + str(reached + unreached) + "</font>"
     Story.append(Paragraph(ptext, styles["Normal"]))
     ptext = "<font size=12>Responding IP-Adresses: " + str(reached) + "</font>"
@@ -52,16 +53,16 @@ def createNewReport(reached, unreached, data, filename):
     ptext = "<font size=20>Time-Stats:</font>"
     Story.append(Paragraph(ptext, styles["Heading1"]))
     Story.append(Spacer(1, 12))
-    ptext = "<font size=20>The average response time was " + str(round(avgtime,2)) + "</font>"
+    ptext = "<font size=14>The average response time was " + str(round(avgtime,2)) + "</font>"
     Story.append(Paragraph(ptext, styles["Normal"]))
     Story.append(Spacer(1, 12))
     #Response time per country
-    ptext = "<font size=18>Average response time for every country (DESCENDING):</font>"
+    ptext = "<font size=18>Average response time for every country (ASCENDING):</font>"
     Story.append(Paragraph(ptext, styles["Heading2"]))
     Story.append(Spacer(1, 12))
     im = Image(chart_min, 6.4*inch*0.6, 4.8*inch*0.6)
     Story.append(im)
-    ptext = "<font size=18>Average response time for every country (ASCENDING):</font>"
+    ptext = "<font size=18>Average response time for every country (DESCENDING):</font>"
     Story.append(Paragraph(ptext, styles["Heading2"]))
     Story.append(Spacer(1, 12))
     im = Image(chart_max, 6.4*inch*0.6, 4.8*inch*0.6)
