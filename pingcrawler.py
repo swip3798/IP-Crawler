@@ -66,9 +66,12 @@ def gen_ips(num, current_list=None):
 	else:
 		ips = current_list
 	while len(ips) < num:
-		new_ip=gen_ip()
-		if new_ip not in ips:
-			ips.append(new_ip)
+		while len(ips) < num:
+			gen_ip()
+			ips.append(gen_ip())
+			print(len(ips), "IPs generated...")
+		ips = list(set(ips))
+	print(len(ips), "finished")
 	return ips
 
 
