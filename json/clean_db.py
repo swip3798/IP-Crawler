@@ -14,6 +14,7 @@ if __name__ == '__main__':
 	data = []
 	with open("database.json", "r") as j:
 		data = json.loads(j.read())
+	print(len(data))
 	data = removeDupDicts(data)
 	with open("database.json", "w") as f:
 		f.write(json.dumps(data, indent = 4, sort_keys = True))
