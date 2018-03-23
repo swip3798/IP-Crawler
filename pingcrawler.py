@@ -81,7 +81,7 @@ def ping(host):
 	Sends a ping to the host with a timeout of 500ms
 	'''
 	res = 0
-	out = subprocess.Popen(["ping", "-n", "1", "-w", "500", host],stderr=subprocess.STDOUT,stdout=subprocess.PIPE, shell=True)
+	out = subprocess.Popen(["ping", "-n", "1", "-w", "750", host],stderr=subprocess.STDOUT,stdout=subprocess.PIPE, shell=True)
 	t = out.communicate()[0],out.returncode
 	res = t[1]
 	output=t[0]
